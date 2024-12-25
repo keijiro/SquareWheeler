@@ -1,0 +1,4 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Label text="「タイヤのない世界のオフロード・カー・シミュレーター」&#10;&quot;Super Realistic Offroad Simulator: Square Wheels Edition&quot;&#10;&#10;Left Arrow: Left Wheels&#10;Right Arrow: Right Wheels&#10;g: Give up and start over&#10;&#10;Drive forward and avoid flipping over." style="color: rgb(255, 255, 255);" />
+    <engine:Label text="Current Progress: 10.3m" name="record-label" style="color: rgb(255, 255, 255);" />
+</engine:UXML>
