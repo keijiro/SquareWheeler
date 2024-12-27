@@ -4,6 +4,7 @@
     "com.unity.render-pipelines.universal": "17.0.3",
     "jp.keijiro.kino.post-processing.eight.universal": "1.0.0",
     "jp.keijiro.klak.motion": "1.1.0",
+    "com.unity.modules.particlesystem": "1.0.0",
     "com.unity.modules.uielements": "1.0.0"
   },
   "scopedRegistries": [

@@ -9,6 +9,8 @@ public sealed class TireController : MonoBehaviour
     [SerializeField] string _uiButtonName = "button";
     [SerializeField] float _force = 500;
     [SerializeField] float _velocity = 500;
+    [SerializeField] ParticleSystem _effect = null;
+    [SerializeField] float _effectRate = 10;
 
     Button _button;
     bool _pressed;
@@ -47,5 +49,8 @@ public sealed class TireController : MonoBehaviour
           { force = _force * accel, targetVelocity = _velocity * accel };
 
         foreach (var joint in _joints) joint.motor = motor;
+
+        var em = _effect.emission;
+        em.rateOverTime = _effectRate * accel;
     }
 }
