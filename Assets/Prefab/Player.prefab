@@ -717,6 +717,7 @@ MonoBehaviour:
       m_Action: Accel Key
       m_Flags: 0
     m_Flags: 0
+  _uiButtonName: left-rev-button
   _force: 500
   _velocity: 500
 --- !u!114 &3875302937906580931
@@ -751,6 +752,7 @@ MonoBehaviour:
       m_Action: Accel Key
       m_Flags: 0
     m_Flags: 0
+  _uiButtonName: right-rev-button
   _force: 500
   _velocity: 500
 --- !u!1 &6896230895660493893

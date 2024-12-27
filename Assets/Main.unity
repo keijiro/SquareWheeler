@@ -191,7 +191,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0, g: 0.5849056, b: 0.44615275, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -416,6 +416,7 @@ MonoBehaviour:
       m_Action: Trigger
       m_Flags: 0
     m_Flags: 0
+  _uiButtonName: give-up-button
 --- !u!4 &1319635734
 Transform:
   m_ObjectHideFlags: 0
