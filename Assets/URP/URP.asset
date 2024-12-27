@@ -22,15 +22,15 @@ MonoBehaviour:
   m_RequireDepthTexture: 0
   m_RequireOpaqueTexture: 0
   m_OpaqueDownsampling: 1
-  m_SupportsTerrainHoles: 1
-  m_SupportsHDR: 1
+  m_SupportsTerrainHoles: 0
+  m_SupportsHDR: 0
   m_HDRColorBufferPrecision: 0
   m_MSAA: 1
   m_RenderScale: 1
   m_UpscalingFilter: 0
   m_FsrOverrideSharpness: 0
   m_FsrSharpness: 0.92
-  m_EnableLODCrossFade: 1
+  m_EnableLODCrossFade: 0
   m_LODCrossFadeDitheringType: 1
   m_ShEvalMode: 0
   m_LightProbeSystem: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_MainLightRenderingMode: 1
   m_MainLightShadowsSupported: 1
   m_MainLightShadowmapResolution: 2048
-  m_AdditionalLightsRenderingMode: 1
+  m_AdditionalLightsRenderingMode: 0
   m_AdditionalLightsPerObjectLimit: 4
   m_AdditionalLightShadowsSupported: 1
   m_AdditionalLightsShadowmapResolution: 2048
@@ -53,14 +53,14 @@ MonoBehaviour:
   m_AdditionalLightsShadowResolutionTierHigh: 1024
   m_ReflectionProbeBlending: 0
   m_ReflectionProbeBoxProjection: 0
-  m_ShadowDistance: 20
+  m_ShadowDistance: 10
   m_ShadowCascadeCount: 1
   m_Cascade2Split: 0.25
   m_Cascade3Split: {x: 0.1, y: 0.3}
   m_Cascade4Split: {x: 0.067, y: 0.2, z: 0.467}
   m_CascadeBorder: 0.2
-  m_ShadowDepthBias: 0.1
-  m_ShadowNormalBias: 0.1
+  m_ShadowDepthBias: 3
+  m_ShadowNormalBias: 0
   m_AnyShadowsSupported: 1
   m_SoftShadowsSupported: 1
   m_ConservativeEnclosingSphere: 1
@@ -70,8 +70,8 @@ MonoBehaviour:
   m_AdditionalLightsCookieFormat: 3
   m_UseSRPBatcher: 1
   m_SupportsDynamicBatching: 0
-  m_MixedLightingSupported: 1
-  m_SupportsLightCookies: 1
+  m_MixedLightingSupported: 0
+  m_SupportsLightCookies: 0
   m_SupportsLightLayers: 0
   m_DebugLevel: 0
   m_StoreActionsOptimization: 0
@@ -79,9 +79,9 @@ MonoBehaviour:
   m_ColorGradingMode: 0
   m_ColorGradingLutSize: 32
   m_AllowPostProcessAlphaOutput: 0
-  m_UseFastSRGBLinearConversion: 0
-  m_SupportDataDrivenLensFlare: 1
-  m_SupportScreenSpaceLensFlare: 1
+  m_UseFastSRGBLinearConversion: 1
+  m_SupportDataDrivenLensFlare: 0
+  m_SupportScreenSpaceLensFlare: 0
   m_GPUResidentDrawerMode: 0
   m_SmallMeshScreenPercentage: 0
   m_GPUResidentDrawerEnableOcclusionCullingInCameras: 0
