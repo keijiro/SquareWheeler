@@ -4,6 +4,9 @@ using UnityEngine.InputSystem;
 
 public sealed class ResetSwitch : MonoBehaviour
 {
+    [field:SerializeField] public Vector3 ResetPoint { get; set; }
+
+    [SerializeField] GameObject _prefab = null;
     [SerializeField] InputAction _trigger = null;
 
     void OnEnable()
@@ -15,6 +18,9 @@ public sealed class ResetSwitch : MonoBehaviour
     void Update()
     {
         if (_trigger.WasPerformedThisFrame())
-            SceneManager.LoadScene(0);
+        {
+            Destroy(GameObject.FindWithTag("Player"));
+            Instantiate(_prefab, ResetPoint, Quaternion.identity);
+        }
     }
 }
