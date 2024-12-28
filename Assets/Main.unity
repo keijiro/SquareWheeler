@@ -872,6 +872,10 @@ PrefabInstance:
       propertyPath: 'CollisionModule.m_Planes.Array.data[0]'
       value: 
       objectReference: {fileID: 1917703834}
+    - target: {fileID: 5170193959162588888, guid: e0eb98d18e4d9418b8a71ef55b49226a, type: 3}
+      propertyPath: Dithering
+      value: 0.08
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
