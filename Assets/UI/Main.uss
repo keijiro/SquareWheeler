@@ -24,3 +24,57 @@
 .unity-button:active {
     background-color: rgba(200, 200, 200, 0.79);
 }
+
+.balloon {
+    background-color: rgb(255, 246, 194);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.balloon-text-en {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -unity-font-definition: url("project://database/Assets/UI/Jersey_10/Jersey10-Regular.ttf?fileID=12800000&guid=831de0b279a75476282feaee42b2e3e7&type=3#Jersey10-Regular");
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    font-size: 30px;
+    -unity-paragraph-spacing: -32px;
+}
+
+.balloon-text-ja {
+    -unity-font-definition: url("project://database/Assets/UI/DotGothic16/DotGothic16-Regular.ttf?fileID=12800000&guid=b0f1dc77dc9804a3fb3ce1eca03d03d6&type=3#DotGothic16-Regular");
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -unity-paragraph-spacing: -30px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -unity-font-style: bold;
+}
+
+.balloon-notch {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: -10px;
+    background-color: rgb(255, 246, 195);
+    rotate: 45deg;
+}
