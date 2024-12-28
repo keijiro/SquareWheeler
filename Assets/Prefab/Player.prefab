@@ -160,7 +160,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 60, y: 60, z: 60}
+  m_LocalScale: {x: 100, y: 60, z: 60}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3238260324752319817}
@@ -426,7 +426,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861092912360693621}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8b5475ba6ef744bca962573d673d3288, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -451,7 +451,7 @@ Rigidbody:
   m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_CenterOfMass: {x: 0, y: -0.08, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
@@ -460,7 +460,7 @@ Rigidbody:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_ImplicitCom: 1
+  m_ImplicitCom: 0
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -563,7 +563,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2932596530297805029}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8b5475ba6ef744bca962573d673d3288, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -711,7 +711,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 1
-  far clip plane: 75
+  far clip plane: 120
   field of view: 20
   orthographic: 0
   orthographic size: 5
@@ -5897,7 +5897,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6896230895660493893}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8b5475ba6ef744bca962573d673d3288, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -6073,7 +6073,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7921082408185536422}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8b5475ba6ef744bca962573d673d3288, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -6249,7 +6249,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8081533381707752856}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8b5475ba6ef744bca962573d673d3288, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

@@ -7,7 +7,7 @@ public sealed class PopupMotion : MonoBehaviour
 
     float _time;
 
-    void Update()
+    void LateUpdate()
     {
         _time = Mathf.Clamp01(_time + Time.deltaTime / Duration);
         var y = Mathf.Pow(1 - _time, 3) * -Length;
