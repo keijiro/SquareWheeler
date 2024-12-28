@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 3766568194513758383}
   - component: {fileID: 35101287884770897}
   m_Layer: 0
-  m_Name: Spawner
+  m_Name: Next Segment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -328,7 +328,7 @@ Transform:
   m_GameObject: {fileID: 8575707390797350428}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.3, z: 0}
+  m_LocalPosition: {x: 0, y: -0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -347,13 +347,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 6605536003310399556, guid: 1268631db98994cf3aec8b7c4767a5a0, type: 3}
-  <Repeat>k__BackingField: 30
   <Extent>k__BackingField:
-    x: 5
-    y: 0.4
-    z: 48
-  <Rotation>k__BackingField:
-    x: 10
-    y: 10
-    z: 10
+    x: 2.4
+    y: 24
+  <BumpCount>k__BackingField: 15
+  <BumpCountInc>k__BackingField: 0.01
+  <Height>k__BackingField: 0.2
+  <HeightInc>k__BackingField: 0.0008
+  <Undulation>k__BackingField: 10
+  <UndulationInc>k__BackingField: 0.02
   <Seed>k__BackingField: 9454
