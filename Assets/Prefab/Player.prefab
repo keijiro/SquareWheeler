@@ -42,7 +42,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4175370196409243525}
-  - component: {fileID: 7814390519557105215}
   - component: {fileID: 6381046057557030655}
   - component: {fileID: 4237237168910547449}
   m_Layer: 0
@@ -67,18 +66,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2609494995305059727}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7814390519557105215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605402607067187335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f628d6e1c7a84f809503d041270d7d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!33 &6381046057557030655
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -269,8 +256,8 @@ MonoBehaviour:
   - {fileID: 3569659426167300372}
   - {fileID: 7775966639325123100}
   _maxVelocity: 2000
-  _pitchRange: {x: 0.5, y: 1.8}
-  _volumeRange: {x: 0.2, y: 0.5}
+  _pitchRange: {x: 0.3, y: 2}
+  _volumeRange: {x: 0.2, y: 0.6}
   _tweenSpeed: 8
 --- !u!82 &6536680385828075231
 AudioSource:

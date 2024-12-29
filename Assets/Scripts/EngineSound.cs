@@ -19,7 +19,7 @@ public sealed class EngineSound : MonoBehaviour
         var total = 0.0f;
         foreach (var joint in _joints) total += joint.velocity;
 
-        var p = total / _maxVelocity;
+        var p = Mathf.Clamp01(total / _maxVelocity);
         var pitch = Mathf.Lerp(_pitchRange.x, _pitchRange.y, p);
         var volume = Mathf.Lerp(_volumeRange.x, _volumeRange.y, p);
 
