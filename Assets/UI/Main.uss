@@ -78,3 +78,61 @@
     background-color: rgb(255, 246, 195);
     rotate: 45deg;
 }
+
+.render {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("project://database/Assets/UI/Render.renderTexture?fileID=8400000&guid=27dc71f443abd427cbd812adcde2e040&type=2#Render");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.title-label-ja {
+    -unity-font-definition: url("project://database/Assets/UI/DotGothic16/DotGothic16-Regular.ttf?fileID=12800000&guid=b0f1dc77dc9804a3fb3ce1eca03d03d6&type=3#DotGothic16-Regular");
+    font-size: 20px;
+    -unity-text-align: upper-center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.title-label-en {
+    -unity-text-align: upper-center;
+}
+
+.hide .render {
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+}
+
+.title-image {
+    background-image: url("project://database/Assets/UI/Title.png?fileID=2800000&guid=e738b80ccc3934a7683d4d96e1aa1f43&type=3#Title");
+    -unity-background-scale-mode: scale-to-fit;
+    flex-grow: 1;
+}
+
+.title-image-container {
+    height: 55%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.hide .title-image-container {
+    translate: -110% 0;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-cubic;
+}
+
+.hide {
+}
+
+.hide .title-label-ja {
+    translate: 100% 0;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-cubic;
+}

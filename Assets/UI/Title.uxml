@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main.uss?fileID=7433441132597879392&amp;guid=280572a112ef1452e84e26d6071be7c2&amp;type=3#Main" />
+    <engine:VisualElement name="root" style="flex-grow: 1;">
+        <engine:VisualElement name="render" class="render" />
+        <engine:VisualElement name="title-image-container" class="title-image-container">
+            <engine:VisualElement name="title-image" class="title-image" />
+        </engine:VisualElement>
+        <engine:Label text="〜車輪の&lt;color=red&gt;ない&lt;/color&gt;世界のオフロード・シミュレーター〜" name="subtitle-label" class="title-label-ja" />
+        <engine:Label text="TAP OR PRESS A KEY TO START!" name="instruction-label" class="title-label-en" />
+    </engine:VisualElement>
+</engine:UXML>
