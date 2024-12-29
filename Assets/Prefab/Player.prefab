@@ -270,7 +270,7 @@ MonoBehaviour:
   - {fileID: 7775966639325123100}
   _maxVelocity: 2000
   _pitchRange: {x: 0.5, y: 1.8}
-  _volumeRange: {x: 0.3, y: 0.5}
+  _volumeRange: {x: 0.2, y: 0.5}
   _tweenSpeed: 8
 --- !u!82 &6536680385828075231
 AudioSource:
