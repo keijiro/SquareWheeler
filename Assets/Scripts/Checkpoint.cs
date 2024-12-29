@@ -3,6 +3,9 @@ using UnityEngine.UIElements;
 
 public sealed class Checkpoint : MonoBehaviour
 {
+    [SerializeField] UIDocument _ui = null;
+    [SerializeField] AudioSource _audio = null;
+    [SerializeField] ParticleSystem _confetti = null;
     [SerializeField] GameObject _prefab = null;
     [SerializeField] Transform _spawnPoint = null;
     [SerializeField] float _stride = 50;
@@ -33,17 +36,20 @@ public sealed class Checkpoint : MonoBehaviour
       => _touched = true;
 
     void Start()
-      => _label = FindFirstObjectByType<UIDocument>()
-                    .rootVisualElement.Q<Label>("checkpoint-label");
+      => _label = _ui.rootVisualElement.Q<Label>("checkpoint-label");
 
     void Update()
     {
         if (_touched)
         {
+            StartBlinkLabel();
+
+            _confetti.Emit(500);
+            _audio.Play();
+
             Instantiate(_prefab, _spawnPoint.position, Quaternion.identity);
             transform.position += Vector3.forward * _stride;
-            StartBlinkLabel();
-            GetComponent<AudioSource>().Play();
+
             _touched = false;
         }
     }
