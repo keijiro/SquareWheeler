@@ -1,7 +1,7 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/Main.uss?fileID=7433441132597879392&amp;guid=280572a112ef1452e84e26d6071be7c2&amp;type=3#Main" />
     <engine:VisualElement name="render" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(&quot;project://database/Assets/UI/Render.renderTexture?fileID=8400000&amp;guid=27dc71f443abd427cbd812adcde2e040&amp;type=2#Render&quot;); -unity-background-scale-mode: scale-to-fit;" />
-    <engine:Label text="Checkpoint! Keep Rolling!" name="checkpoint-label" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; -unity-text-align: middle-center; visibility: hidden;" />
+    <engine:Label text="Checkpoint! Keep Rolling!" name="checkpoint-label" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; -unity-text-align: middle-center; visibility: hidden; font-size: 50px;" />
     <engine:Label text="Current Progress: 10.3m" name="progress-label" style="margin-left: 10px;" />
     <engine:Button text="Left&#10;Rev&#10;[&lt;-]" name="left-rev-button" style="position: absolute; bottom: 8px; left: 8px; width: 20%; height: 33%;" />
     <engine:Button text="Right&#10;Rev&#10;[-&gt;]" name="right-rev-button" style="width: 20%; height: 33%; right: 8px; position: absolute; bottom: 8px;" />

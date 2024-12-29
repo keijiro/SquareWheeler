@@ -10,13 +10,23 @@ public sealed class Checkpoint : MonoBehaviour
     Label _label;
     bool _touched;
 
+    static Color Get8BitColor(int i)
+      => new Color((i & 1) > 0 ? 1 : 0,
+                   (i & 2) > 0 ? 1 : 0,
+                   (i & 4) > 0 ? 1 : 0, 1);
+
     async void StartBlinkLabel()
     {
-        for (var i = 0; i < 12; i++)
+        _label.visible = true;
+
+        var style = _label.style;
+        for (var i = 0; i < 32; i++)
         {
-            _label.visible ^= true;
-            await Awaitable.WaitForSecondsAsync(0.2f);
+            style.color = Get8BitColor(i);
+            await Awaitable.WaitForSecondsAsync(0.1f);
         }
+
+        _label.visible = false;
     }
 
     void OnCollisionEnter(Collision collision)
