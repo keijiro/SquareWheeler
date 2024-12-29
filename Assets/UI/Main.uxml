@@ -9,14 +9,14 @@
     <engine:VisualElement name="instruction1" style="position: absolute; right: 5%; bottom: 35%; visibility: hidden;">
         <engine:VisualElement name="instruction-balloon" class="balloon">
             <engine:VisualElement name="balloon-notch" class="balloon-notch" style="right: 20px;" />
-            <engine:Label text="このボタンか「→」キーで&#10;右のキューブを回転" name="instruction-label-ja" class="balloon-text-ja" />
+            <engine:Label text="このボタンか「→」キーで&#10;右の箱を回転" name="instruction-label-ja" class="balloon-text-ja" />
             <engine:Label text="PRESS THIS BUTTON&#10;OR RIGHT ARROW KEY&#10;TO SPIN THE RIGHT &quot;WHEEL&quot;" name="instruction-label-en" class="balloon-text-en" />
         </engine:VisualElement>
     </engine:VisualElement>
     <engine:VisualElement name="instruction2" style="position: absolute; left: 5%; bottom: 35%; visibility: hidden;">
         <engine:VisualElement name="instruction-balloon" class="balloon">
             <engine:VisualElement name="balloon-notch" class="balloon-notch" />
-            <engine:Label text="このボタンか「←」キーで&#10;左のキューブを回転" name="instruction-label-ja" class="balloon-text-ja" />
+            <engine:Label text="このボタンか「←」キーで&#10;左の箱を回転" name="instruction-label-ja" class="balloon-text-ja" />
             <engine:Label text="PRESS THIS BUTTON&#10;OR LEFT ARROW KEY&#10;TO SPIN THE LEFT &quot;WHEEL&quot;" name="instruction-label-en" class="balloon-text-en" />
         </engine:VisualElement>
     </engine:VisualElement>
