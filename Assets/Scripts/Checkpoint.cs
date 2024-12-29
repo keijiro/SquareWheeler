@@ -33,6 +33,7 @@ public sealed class Checkpoint : MonoBehaviour
             Instantiate(_prefab, _spawnPoint.position, Quaternion.identity);
             transform.position += Vector3.forward * _stride;
             StartBlinkLabel();
+            GetComponent<AudioSource>().Play();
             _touched = false;
         }
     }
