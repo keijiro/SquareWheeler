@@ -3,9 +3,11 @@ Desktop.ini
 .DS_Store
 *.swp
 
+/.utmp
 /Library
 /Logs
 /Recordings
 /Temp
 /UserSettings
+/Xcode
 /Web
