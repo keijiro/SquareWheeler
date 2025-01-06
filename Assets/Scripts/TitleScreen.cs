@@ -21,6 +21,9 @@ public sealed class TitleScreen : MonoBehaviour
         _render = root.Q("render");
         _title = root.Q("title-image");
         _inst = root.Q("instruction-label");
+
+        Application.targetFrameRate = 60;
+
         WaitKeyAndStartGame();
     }
 
